@@ -8,4 +8,4 @@
 secrets is a web app that allows you to shere secrets anonymously with the world.
 
 **Installation**                         
-*colne this repository 
+*colne this repository ```git clone``` 
