@@ -1,0 +1,50 @@
+<%- include('partials/header') %>
+
+<div class="landing-page min-vh-100 d-flex align-items-center">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <div class="hero-content">
+          <!-- Animated Key Icon -->
+          <div class="icon-wrapper mb-4">
+            <div class="key-container">
+              <i class="fas fa-key main-icon"></i>
+              <div class="glow-effect"></div>
+            </div>
+          </div>
+
+          <!-- Main Content -->
+          <h1 class="display-2 mb-3 fw-bold text-gradient">Secrets</h1>
+          <p class="lead mb-5">Share your thoughts freely, safely, and anonymously with the world.</p>
+
+          <!-- Feature Badges -->
+          <div class="features-section mb-5">
+            <div class="d-flex justify-content-center gap-4 flex-wrap">
+              <div class="feature-badge">
+                <i class="fas fa-user-secret"></i>
+                <span>Anonymous</span>
+              </div>
+              <div class="feature-badge">
+                <i class="fas fa-lock"></i>
+                <span>Secure</span>
+              </div>
+              
+            </div>
+          </div>
+
+          <!-- CTA Buttons -->
+          <div class="cta-buttons">
+            <a class="btn btn-primary btn-lg me-3" href="/register" role="button">
+              <i class="fas fa-user-plus me-2"></i> Get Started
+            </a>
+            <a class="btn btn-outline-primary btn-lg" href="/login" role="button">
+              <i class="fas fa-sign-in-alt me-2"></i> Sign In
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%- include('partials/footer') %>
